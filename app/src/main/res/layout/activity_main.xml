@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activites.MainActivity">
+    
+    
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv"
+        app:cardElevation="3dp"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="13dp"
+
+        android:layout_centerInParent="true"
+        android:layout_marginTop="200dp"
+        android:background="@color/teal_700"
+        android:layout_width="380dp"
+        android:layout_height="350dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="@color/teal_700"
+            android:layout_height="match_parent">
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="@string/login"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="50dp"
+                android:textColor="@color/white"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/LoginEmailID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/white"
+                android:inputType="textEmailAddress"
+                android:padding="10dp"
+                android:hint="@string/enter_your_email"
+                android:background="@drawable/selector_bg_edit_2"
+                android:paddingBottom="2dp"
+                android:textCursorDrawable="@drawable/bg_input_cursor_2"
+                android:textSize="20dp"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck">
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/LoginPasswordId"
+                android:inputType="textPassword"
+                android:textSize="20dp"
+                android:padding="10dp"
+                android:textColor="@color/white"
+                android:textCursorDrawable="@drawable/bg_input_cursor_2"
+                android:layout_marginTop="15dp"
+                android:hint="@string/enter_your_password"
+                android:background="@drawable/selector_bg_edit_2"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </EditText>
+
+            <Button
+                android:id="@+id/LoginButtonId"
+                android:layout_marginStart="90dp"
+                android:textColor="@color/white"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bt_shape"
+                android:stateListAnimator="@drawable/state_list_animator_z"
+                android:text="Login"
+                android:layout_width="150dp"
+                android:layout_height="50dp">
+
+            </Button>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

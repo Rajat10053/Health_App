@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "62158363898",
+    "project_id": "healthapp-1527a",
+    "storage_bucket": "healthapp-1527a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:62158363898:android:3bf45fc926d2eba0ab3d43",
+        "android_client_info": {
+          "package_name": "com.example.helthapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "62158363898-bu2dbdr8vbebsm4i4qcoboou1n41kmdu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcrmXubETqTpkpCfE14oRYyATsVNIkULM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "62158363898-bu2dbdr8vbebsm4i4qcoboou1n41kmdu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

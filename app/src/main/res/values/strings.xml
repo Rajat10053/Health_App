@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Helth App</string>
+    <string name="login">Login</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="welcome">Welcome!!</string>
+    <string name="which_state_do_you_want_info_on">Which State do you want info on ?</string>
+</resources>
